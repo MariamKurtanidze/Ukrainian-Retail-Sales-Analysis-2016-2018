@@ -30,7 +30,8 @@ Notably, the share of new customers increased significantly over time — from j
 The company could improve performance by expanding top-selling product lines, targeting female shoppers, and implementing loyalty programs. Regionally focused initiatives may also enhance sales in Kharkiv and Dnipropetrovsk.
 
 
-![Dataset ERD]
+![1-erd](images/1-erd.png)
+
 Dataset ERD, Star Schema
 
 ## Data Preparation
@@ -52,27 +53,28 @@ The raw sales data from multiple sources and formats was cleaned, transformed, a
 
 Sales data from 2016 to 2018 shows annual revenue averaging 9 million UAH with a profit margin of approximately 900K. Seasonal trends are evident, with peak sales occurring during the summer and around the New Year holidays. While both actual and planned sales follow a generally upward trend, actual sales underperformed by nearly 3 million UAH over the period. A notable gap emerged during summer 2017, suggesting planners may have underestimated seasonal demand. Similar discrepancies appear across other years, with sharp declines observed in mid-Q2 2016 and Q4 2017. These insights point to opportunities for improving demand forecasting and aligning planning processes with real-world seasonal shifts.
 
-![Annual Sales and Growth Rates]()
+![2-sales](images/2-sales.png)
 
 
 ### Key Brand and Product Performance
 
 Footwear dominates sales, making up 60% of total revenue (~5.2M UAH annually), led by Nike (30%, ~2.7M UAH), followed by Reebok and Adidas. Outerwear is the second-best-selling category, contributing 30% of sales (~2.5M UAH). Other categories individually account for less than 5%. Seasonal collection renewals typically occur in Q1–Q2 ahead of summer peaks. Expanding high-margin lines—especially Nike footwear (703 UAH avg.)—can boost profitability. Lower-margin items like accessories (169 UAH) and headwear (154 UAH) may benefit from bundling or volume promotions to maintain their contribution.
 
-![Product Performance Table]()
+![3-product](images/3-product.png)
 
 ### Customer Segmentation and Behavior 
 
 New customers rose sharply from 5% in 2016 to 49.5% in 2018, showing strong acquisition performance. For customer attraction outdoor advertising remained the top channel (42% of sales), followed by referrals (21%) and internet channels (19%). Radio ads accounted for 8%, with only slight channel share shifts over three years— Outdoor advertising’s share dropped by 4%, while internet channels grew at a similar rate — suggesting improved performance and greater effectiveness of digital campaigns in attracting customers. Women made up 57% of customers, with monthly shares ranging from 53% to 65%. Most buyers were aged 35–60, especially 40–50, suggesting marketing efforts should focus on this core demographic.
 
-![Customer Retention Table]()
+![4-customers](images/4-customers.png)
+
 
 
 ### Regional Trends Analysis
 
 Kyiv leads with ~58% of annual revenue, followed by Kharkiv (25%) and Dnipro (17%). Sales distribution across regions is stable, with ~2% annual fluctuation. YoY growth trends are positive in Kyiv (+4%) and Kharkiv (+2%), while Dnipro saw a 7% drop in 2017. For the same period in 2018 (through September 20), Dnipro and Kyiv grew by 8% and 1%, respectively, while Kharkiv declined by 2%. Store expansion started in Kyiv (7 branches), followed by Dnipro (3) and Kharkiv (2). The top-performing stores were Dnipro #8 (513,898 UAH), Kyiv #12 (497,079 UAH), and Kharkiv #6 (281,438 UAH). Seasonal patterns affect all regions, peaking around holidays and summer months.
 
-![Loyalty Program Performance Table]()
+![5-regions](images/5-regions.png)
 
 
 ### What-If Analysis 
@@ -81,7 +83,7 @@ The What-If Analysis dashboard allows users to simulate the effects of changing 
 Users can explore how increases or decreases in either factor impact key performance indicators in real time. This helps identify break-even thresholds, assess risk, and support pricing or budgeting decisions.
 The dynamic dashboard enhances strategic planning by allowing stakeholders to model potential business scenarios interactively — without altering the base dataset. 
 
-![Sales by Platform and Channel]()
+![6-what-ifs](images/6-what-ifs.png)
 
 
 
