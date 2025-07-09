@@ -32,7 +32,7 @@ The company could improve performance by expanding top-selling product lines, ta
 
 ![1-erd](images/1-erd.png)
 
-Dataset ERD, Star Schema
+Dataset ERD, Snowflake Schema
 
 ## Data Preparation
 
