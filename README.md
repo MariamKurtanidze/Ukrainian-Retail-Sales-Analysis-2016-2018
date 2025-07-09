@@ -40,7 +40,7 @@ The raw sales data from multiple sources and formats was cleaned, transformed, a
 
 - **Data Cleaning:** Handled missing values (e.g., when calculating new vs. constant customers), corrected inconsistencies (such as store name formatting and numeration), and standardized encodings (including UTF adjustments for newer branches).
 
-- **Data Integration and Modeling:** Merged datasets from sales (рПродажиФакт), products (спрТовары), customers (спрПокупатели), costs (рОпер расходы), collection renewals (рЗакупки), stores (спрМагазины), issue prices, and sales plans into a unified model. A star schema was designed to optimize relationships between sales and other dimension tables.
+- **Data Integration and Modeling:** Merged datasets from sales (рПродажиФакт), products (спрТовары), customers (спрПокупатели), costs (рОпер расходы), collection renewals (рЗакупки), stores (спрМагазины), issue prices, and sales plans into a unified model. A snowflake schema was designed to optimize relationships between sales and other dimension tables.
 
 - **Calculated Measures:** Developed over 80 DAX measures for reporting, including a custom calendar table, age group segmentation, profitability metrics, brand and regional performance comparisons, What-If analysis, and time intelligence functions (e.g., YoY, MoM).
 
